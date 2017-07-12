@@ -1,0 +1,9 @@
+#flickr_badge_wrapper {
+background-color:#FFFFFF;
+display:table;
+table-layout:fixed;
+width:600px;
+}
+.flickr_badge_image {
+display:table-cell;
+}
