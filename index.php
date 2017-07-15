@@ -40,15 +40,16 @@
                 <p>I want to hear from you: <strong>der<span class="no">4405s</span>ek<span class="no">34rufhaa</span>@de<span class="no">000</span><span class="yes">rekga</span><span class="no">too</span><span class="yes">tes</span>.us</strong></p>
 
                 <ul>
-                  <li><a href="resume.pdf">View My Resume</a></li>
-                  <li><a href="http://blog.jink.us">Blog <small>(this needs updating!)</small></a></li>
+                  
                 </ul>
                 
                 <h3>Social</h3>
                 <ul>
-                  <li><a href="https://twitter.com/absolutelyderek">Twitter</a></li>
-                  <li><a href="http://flickr.com/photos/jink">Flickr</a></li>
+                  <li><a href="http://blog.jink.us">Blog <small>(this needs updating!)</small></a></li>
                   <li><a href="https://github.com/derekgates">GitHub</a></li>
+                  <li><a href="http://flickr.com/photos/jink">Flickr</a></li>
+                  <li><a href="https://twitter.com/absolutelyderek">Twitter</a></li>
+                  <li><a href="https://medium.com/@derek_60200/has-recommended">Medium Recommendations</a></li>
                 </ul>
 
 
