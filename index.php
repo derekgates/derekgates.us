@@ -7,16 +7,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Derek Gates</title>
-        <meta name="description" content="">
+        <meta name="description" content="I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride msyelf with designing systems that work together beautifully.">
         <meta name="viewport" content="width=device-width">
+        <meta property="og:title" content="Derek Gates: Usability focused developer.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://derekgates.us/img/avatar_150x150.jpg">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Language" content="en">
 
         <meta name="Keywords" content="Derek,Gates,developer,web,contract,asp.net,c#,.net,php,wordpress,html,css,javascript"/>
 
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPg8b0KLvB">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=kPg8b0KLvB">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=kPg8b0KLvB">
+        <link rel="manifest" href="/manifest.json?v=kPg8b0KLvB">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg?v=kPg8b0KLvB" color="#5bbad5">
+        <link rel="shortcut icon" href="/favicon.ico?v=kPg8b0KLvB">
+        <meta name="theme-color" content="#ffffff">
+
+
         <link rel="stylesheet" href="css/main.css"/>
       </head>
       <body>
@@ -45,7 +55,7 @@
                   </ul>
                 </p>
 
-                <p>Are you interested in a hard working developer on your team?  <a href="resume.pdf">View My Full Resume (pdf)</a></p>
+                <p>Are you interested in a hard working, diversely skilled developer on your team?  <a href="resume.pdf">View My Full Resume (pdf)</a></p>
                
                 <p>I want to hear from you: <strong>der<span class="no">4405s</span>ek<span class="no">34rufhaa</span>@de<span class="no">000</span><span class="yes">rekga</span><span class="no">too</span><span class="yes">tes</span>.us</strong></p>
 
