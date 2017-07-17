@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width">
         <meta property="og:title" content="Derek Gates: Usability focused developer.">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="http://derekgates.us/img/avatar_150x150.jpg">
+        <meta property="og:image" content="http://derekgates.us/img/avatar_300x300.jpg">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Language" content="en">
@@ -128,7 +128,17 @@
                 </div></div></div>-->*/ ?>
             </div>
       </div>
-    <script src="http://static.getclicky.com/88386.js" type="text/javascript"></script>
-    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/88386-db11.gif" /></p></noscript>
+<script type="text/javascript">
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(88386);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/88386ns.gif" /></p></noscript>
     </body>
 </html>
