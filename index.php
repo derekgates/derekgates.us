@@ -21,14 +21,14 @@
       </head>
       <body>
         <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
           <div class="main-container">
               <div class="main wrapper clearfix">
                 <h1>Hi there, I am Derek Gates.</h1>
                 <hr/>
 
-                <div class="me right"></div>
+                <div class="me right"><img src="img/avatar_300x300.jpg" width="150" height="150" alt="Picture of Me from ~2006?"/></div>
 
                 <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride msyelf with designing systems that work together beautifully.</p>
 
