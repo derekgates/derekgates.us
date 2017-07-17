@@ -7,11 +7,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Derek Gates</title>
-        <meta name="description" content="I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride msyelf with designing systems that work together beautifully.">
+        <meta name="description" content="I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride myself with designing systems that work together beautifully.">
         <meta name="viewport" content="width=device-width">
         <meta property="og:title" content="Derek Gates: Usability focused developer.">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="http://derekgates.us/img/avatar_300x300.jpg">
+        <meta property="og:image" content="https://derekgates.us/img/avatar_300x300.jpg">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Language" content="en">
@@ -40,11 +40,11 @@
 
                 <div class="me right"><img src="img/avatar_300x300.jpg" width="150" height="150" alt="Picture of Me from ~2006?"/></div>
 
-                <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride msyelf with designing systems that work together beautifully.</p>
+                <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride myyelf with designing systems that work together beautifully.</p>
 
                 <p>Previously, I worked at a Pensacola, FL company called ActiGraph which made FDA certified activity monitors.  I was a full stack developer that developed front-end software and websites, interfaced with hardware devices, a back-end server architect and DevOps for the rest of our products.  I was a member of hardware and software teams and worked hard to communicate ideas.</p>
 
-
+                <h2>Skills</h2>
                 <p>
                   <ul>
                     <li>Accomplished C#,  HTML + CSS, UI developer with 12 years of experience.</li>
@@ -55,7 +55,7 @@
                   </ul>
                 </p>
 
-                <p>Are you interested in a hard working, diversely skilled developer on your team?  <a href="resume.pdf">View My Full Resume (pdf)</a></p>
+                <p>Are you interested in a hard working, diversely skilled developer on your team?  <a href="resume.pdf">View My Full Resume <small>(pdf)</small></a></p>
                
                 <p>I want to hear from you: <strong>der<span class="no">4405s</span>ek<span class="no">34rufhaa</span>@de<span class="no">000</span><span class="yes">rekga</span><span class="no">too</span><span class="yes">tes</span>.us</strong></p>
 
@@ -63,11 +63,11 @@
                   
                 </ul>
                 
-                <h3>Social</h3>
+                <h2>Social</h2>
                 <ul>
-                  <li><a href="http://blog.jink.us">Blog <small>(this needs updating!)</small></a></li>
+                  <li><a href="https://blog.derekgates.us">Blog <small>(this needs updating!)</small></a></li>
                   <li><a href="https://github.com/derekgates">GitHub</a></li>
-                  <li><a href="http://flickr.com/photos/jink">Flickr</a></li>
+                  <li><a href="https://flickr.com/photos/jink">Flickr</a></li>
                   <li><a href="https://twitter.com/absolutelyderek">Twitter</a></li>
                   <li><a href="https://medium.com/@derek_60200/has-recommended">Medium Recommendations</a></li>
                 </ul>
