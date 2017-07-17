@@ -30,12 +30,22 @@
 
                 <div class="me right"></div>
 
-                <p>I am a developer that cares about user experience.  I am fluent in desktop and web technologies.
-                   My current work interests user experience design, web architecture, database administration, DevOps and other server side work.  I pride msyelf with designing systems that work together beautifully.</p>
+                <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride msyelf with designing systems that work together beautifully.</p>
 
-                <p>Previously, I worked at a Pensacola, FL company called ActiGraph.  I was a user experience designer for our websites, hardware device stack developer, a back-end server architect and DevOps for the rest of our products.  I was a member of hardware and software teams and worked hard to communicate ideas.</p>
+                <p>Previously, I worked at a Pensacola, FL company called ActiGraph which made FDA certified activity monitors.  I was a full stack developer that developed front-end software and websites, interfaced with hardware devices, a back-end server architect and DevOps for the rest of our products.  I was a member of hardware and software teams and worked hard to communicate ideas.</p>
 
-                <p>Are you interested in a hard working developer on your team?  <a href="resume.pdf">View My Resume</a></p>
+
+                <p>
+                  <ul>
+                    <li>Accomplished C#,  HTML + CSS, UI developer with 12 years of experience.</li>
+                    <li>Diverse knowledge of ASP.net, Javascript, Databases with 8 years of experience.</li>
+                    <li>I enjoy continuous integration, cloud systems (Azure, AWS, etc) and DevOps with 4 years of experience.</li>
+                    <li>Well versed with working in teams, working remotely, and working independently using Agile work flows.</li>
+                    <li>Toastmasters member.  Not afraid of large audiences and presentations.  I love to talk about and explain systems to other members of a team; capable of talking to all levels from the most technical, to sales team, to marketing, to customers.  Mentorship is a strong point for me.</li>
+                  </ul>
+                </p>
+
+                <p>Are you interested in a hard working developer on your team?  <a href="resume.pdf">View My Full Resume (pdf)</a></p>
                
                 <p>I want to hear from you: <strong>der<span class="no">4405s</span>ek<span class="no">34rufhaa</span>@de<span class="no">000</span><span class="yes">rekga</span><span class="no">too</span><span class="yes">tes</span>.us</strong></p>
 
