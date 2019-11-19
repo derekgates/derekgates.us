@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -30,9 +27,6 @@
         <link rel="stylesheet" href="css/main.css"/>
       </head>
       <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
           <div class="main-container">
               <div class="main wrapper clearfix">
                 <h1>Hi there, I am Derek Gates.</h1>
@@ -40,16 +34,17 @@
 
                 <div class="me right"><img src="img/avatar_300x300.jpg" width="150" height="150" alt="Picture of Me from ~2006?"/></div>
 
-                <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride myyelf with designing systems that work together beautifully.</p>
+                <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride myself with designing systems that work together beautifully.</p>
 
+                <p>I am a front-end developer focusing on Angular and AngularJS.  To power the front-end, I have learned webpack, babel and Typescript.  I have been assisting co-workers with devops help by speeding up builds, documenting and helping formulate guidelines.</p>
                 <p>Previously, I worked at a Pensacola, FL company called ActiGraph which made FDA certified activity monitors.  I was a full stack developer that developed front-end software and websites, interfaced with hardware devices, a back-end server architect and DevOps for the rest of our products.  I was a member of hardware and software teams and worked hard to communicate ideas.</p>
 
                 <h2>Skills</h2>
                 <p>
                   <ul>
-                    <li>Accomplished C#,  HTML + CSS, UI developer with 12 years of experience.</li>
+                    <li>Accomplished C#,  HTML + CSS, UI developer with 14 years of experience.</li>
                     <li>Diverse knowledge of ASP.net, Javascript, Databases with 8 years of experience.</li>
-                    <li>I enjoy continuous integration, cloud systems (Azure, AWS, etc) and DevOps with 4 years of experience.</li>
+                    <li>I enjoy continuous integration, cloud systems (Azure, AWS, etc) and DevOps with 5 years of experience.</li>
                     <li>Well versed with working in teams, working remotely, and working independently using Agile work flows.</li>
                     <li>Toastmasters member.  Not afraid of large audiences and presentations.  I love to talk about and explain systems to other members of a team; capable of talking to all levels from the most technical, to sales team, to marketing, to customers.  Mentorship is a strong point for me.</li>
                   </ul>
