@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width">
         <meta property="og:title" content="Derek Gates: Usability focused developer.">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="https://derekgates.us/img/avatar_300x300.jpg">
+        <meta property="og:image" content="https://derekgates.us/img/avatar_300x300.jpg?v=kPvW4AoJ54">
 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Language" content="en">
@@ -34,7 +34,7 @@
                 <h1>Hi there, I am Derek Gates.</h1>
                 <hr/>
 
-                <div class="me right"><img src="img/avatar_300x300.jpg" width="150" height="150" alt="Picture of Me from ~2006?"/></div>
+                <div class="me right"><img src="img/avatar_300x300.jpg?v=kPvW4AoJ54" width="150" height="150" alt="Picture of Me from ~2016"/></div>
 
                 <p>I am a developer that is devoted to user experience.  I am fluent in desktop and web technologies. I pride myself with designing systems that work together beautifully.</p>
 
