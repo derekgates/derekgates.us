@@ -15,13 +15,15 @@
 
         <meta name="Keywords" content="Derek,Gates,developer,web,contract,asp.net,c#,.net,php,wordpress,html,css,javascript"/>
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPg8b0KLvB">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=kPg8b0KLvB">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=kPg8b0KLvB">
-        <link rel="manifest" href="/manifest.json?v=kPg8b0KLvB">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg?v=kPg8b0KLvB" color="#5bbad5">
-        <link rel="shortcut icon" href="/favicon.ico?v=kPg8b0KLvB">
-        <meta name="theme-color" content="#ffffff">
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPvW4AoJ54">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=kPvW4AoJ54">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=kPvW4AoJ54">
+		<link rel="manifest" href="/site.webmanifest?v=kPvW4AoJ54">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=kPvW4AoJ54" color="#5bbad5">
+		<link rel="shortcut icon" href="/favicon.ico?v=kPvW4AoJ54">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 
 
         <link rel="stylesheet" href="css/main.css"/>
