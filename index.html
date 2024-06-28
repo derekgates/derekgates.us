@@ -36,15 +36,15 @@
           --gray-2: #f6f5f3;  --gray-accent: #d6d1c3;
           --gold: #DBA507;
           --dark-bg: #2f2e36;
-          --dark-bg-4lighter: #2f2e36;
+          --dark-bg-4lighter: #2e2d33;
         }
         body { 
             background-image: linear-gradient(#fdf6e3, var(--gray-2, #f6f5f3));
             min-height: 100vh;
-            max-width: 70rem;
+            max-width: 50em; /* WCAG 2.1 */
             margin: 0 auto;
             color:#586E75; 
-            padding: 3rem;
+            padding: 1em 3rem;
             font-family: -apple-system, BlinkMacSystemFont, 
             "Segoe UI", "Roboto", "Oxygen", 
             "Ubuntu", "Cantarell", "Fira Sans", 
@@ -60,9 +60,17 @@
             text-decoration-thickness: 2px;
             text-decoration-line: underline overline;
         }
-        p { line-height: 1.6em; }
+        /* https://www.smashingmagazine.com/2020/07/css-techniques-legibility/ */
+        @supports (font-size-adjust: 1) {
+            p { font-size-adjust: 0.5; }
+        }
+        p { 
+          font-size: 1.1em;
+          line-height: calc(1ex / 0.32); 
+          margin: calc(1ex / 0.32) 0;
+        }
         p, ul { margin-bottom: 1rem;}
-        p+p{margin-top:1rem;}
+        p+p{margin-top:1.5em;  /* WCAG 2.1 */}
         p span.no { display:none; }
         img { border: 1px solid #999;  margin: 0.5rem; }
         a img { border: none; }
@@ -72,9 +80,9 @@
 
         @media (prefers-color-scheme: dark) {
           body {
-            background: var(--dark-bg,#1c1b22);
-            background-image: linear-gradient(var(--dark-bg,#1c1b22), var(--dark-bg-4lighter, #2f2e36));
-            color: #9EB6BD;
+            background: var(--dark-bg-4lighter);
+            background-image: linear-gradient(var(--dark-bg,#2f2e36), var(--dark-bg-4lighter, #2e2d33));
+            color: #E4E9EA;
           }
           a, a:visited, a:active { color: var(--gold, #DBA507);}
         }
