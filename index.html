@@ -18,21 +18,28 @@
         <!-- <link rel="manifest" href="/site.webmanifest?v=kPvW4AoJ54">
         <link rel="mask-icon" href="/safari-pinned-tab.svg?v=kPvW4AoJ54" color="#5bbad5">
         <link rel="shortcut icon" href="/favicon.ico?v=kPvW4AoJ54">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPvW4AoJ54"> -->
+        <meta name="msapplication-TileColor" content="#da532c">-->
+        <meta name="theme-color" content="#f6f5f3" media="(prefers-color-scheme: light)" >
+        <meta name="theme-color" content="#2f2e36" media="(prefers-color-scheme: dark)" >
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPvW4AoJ54">
 
 
         <!-- <link rel="stylesheet" href="css/main.css"/> -->
          <style>
-         /*!
-          Josh's Custom CSS Reset
-          https://www.joshwcomeau.com/css/custom-css-reset/
+        /*!
+            Josh's Custom CSS Reset
+            https://www.joshwcomeau.com/css/custom-css-reset/
         */
         *,*::after,*::before{box-sizing:border-box}*{margin:0}body{line-height:1.5;-webkit-font-smoothing:antialiased}canvas,img,picture,svg,video{display:block;max-width:100%}button,input,select,textarea{font:inherit}h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word}#__next,#root{isolation:isolate}
         /*========================================================================== */
+        :root { color-scheme: light dark; 
+          --gray-2: #f6f5f3;  --gray-accent: #d6d1c3;
+          --gold: #DBA507;
+          --dark-bg: #2f2e36;
+          --dark-bg-4lighter: #2f2e36;
+        }
         body { 
-            background-image: linear-gradient(#fdf6e3,#fdf6e3,#fff);
+            background-image: linear-gradient(#fdf6e3, var(--gray-2, #f6f5f3));
             min-height: 100vh;
             max-width: 70rem;
             margin: 0 auto;
@@ -43,30 +50,34 @@
             "Ubuntu", "Cantarell", "Fira Sans", 
             "Droid Sans", "Helvetica Neue", sans-serif;
         }
-        header {
-            padding: 1rem 0 2rem 0;
-            /* display: grid;
-            grid-template-columns: 1fr max-content;
-            grid-auto-rows: minmax(2rem, auto); */
-        }
+        header { padding: 1rem 0 2rem 0; }
+        h1, h2 { margin-bottom: 1rem; }
         header img { margin-left: 1rem; }
-        main { max-width: 60rem; font-size: 1.1rem; }
         a,a:visited { color: #0E74BB;}
         a:active{ color: #2AA198;}
         a:hover {
-          text-underline-offset: 3px;
-          text-decoration-thickness: 2px;
-          text-decoration-line: underline overline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 2px;
+            text-decoration-line: underline overline;
         }
-        
-        p { margin-bottom: 1rem;}
+        p { line-height: 1.6em; }
+        p, ul { margin-bottom: 1rem;}
         p+p{margin-top:1rem;}
         p span.no { display:none; }
-        img { border: 1px solid #999; }
+        img { border: 1px solid #999;  margin: 0.5rem; }
         a img { border: none; }
-        
+
         .right { float: right; }
         footer small { font-size: 0.6rem; }
+
+        @media (prefers-color-scheme: dark) {
+          body {
+            background: var(--dark-bg,#1c1b22);
+            background-image: linear-gradient(var(--dark-bg,#1c1b22), var(--dark-bg-4lighter, #2f2e36));
+            color: #9EB6BD;
+          }
+          a, a:visited, a:active { color: var(--gold, #DBA507);}
+        }
         </style>
       </head>
       <body>
