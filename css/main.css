@@ -22,8 +22,13 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", 
     "Droid Sans", "Helvetica Neue", sans-serif;
 }
-header { padding: 1rem 0 2rem 0; }
-h1, h2 { margin-bottom: 1rem; }
+header{
+    margin-bottom: 1em;
+    padding-bottom:1em;
+    border-bottom: solid 1px #ccc;
+}
+header, footer { padding-top: 1rem; }
+h1, h2 { margin: 1rem 0; }
 header img { margin-left: 1rem; }
 a,a:visited { color: #0E74BB;}
 a:active{ color: #2AA198;}
@@ -36,6 +41,7 @@ a:hover {
 @supports (font-size-adjust: 1) {
     p { font-size-adjust: 0.5; }
 }
+main blockquote { font-size: 0.8em; }
 p { 
     font-size: 1.1em;
     line-height: calc(1ex / 0.32); 
@@ -53,8 +59,8 @@ footer small { font-size: 0.6rem; }
 @media (prefers-color-scheme: dark) {
     body {
     background: var(--dark-bg-4lighter);
-    background-image: linear-gradient(var(--dark-bg,#2f2e36), var(--dark-bg-4lighter, #2e2d33));
+    background-image: linear-gradient(var(--dark-bg,#444), var(--dark-bg-4lighter, #333));
     color: #E4E9EA;
     }
-    a, a:visited, a:active { color: var(--gold, #DBA507);}
+    a, a:visited, a:active { color: var(--gold, gold);}
 }

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <title>Derek Gates</title>
 
-        <meta name="description" content="Developer that is devoted to user experience. I am fluent in desktop and web technologies. I pride myself with designing systems that work together beautifully.">
+        <meta name="author" content="Derek Gates"/>
+        <meta name="description" content="I am Derek Gates, a developer devoted to user experience. I pride myself with designing systems that work together beautifully.">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="Content-Language" content="en">
 
@@ -22,6 +23,8 @@
         <meta name="theme-color" content="#f6f5f3" media="(prefers-color-scheme: light)" >
         <meta name="theme-color" content="#2f2e36" media="(prefers-color-scheme: dark)" >
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=kPvW4AoJ54">
+
+        <link href="https://mastodon.social/@AbsolutelyDerek" rel="me">
 
 
         <!-- <link rel="stylesheet" href="css/main.css"/> -->
@@ -50,8 +53,13 @@
             "Ubuntu", "Cantarell", "Fira Sans", 
             "Droid Sans", "Helvetica Neue", sans-serif;
         }
-        header { padding: 1rem 0 2rem 0; }
-        h1, h2 { margin-bottom: 1rem; }
+        header{
+            margin-bottom: 1em;
+            padding-bottom:1em;
+            border-bottom: solid 1px #ccc;
+        }
+        header, footer { padding-top: 1rem; }
+        h1, h2 { margin: 1rem 0; }
         header img { margin-left: 1rem; }
         a,a:visited { color: #0E74BB;}
         a:active{ color: #2AA198;}
@@ -69,6 +77,7 @@
           line-height: calc(1ex / 0.32); 
           margin: calc(1ex / 0.32) 0;
         }
+        main blockquote { font-size: 0.8em; }
         p, ul { margin-bottom: 1rem;}
         p+p{margin-top:1.5em;  /* WCAG 2.1 */}
         p span.no { display:none; }
@@ -81,39 +90,41 @@
         @media (prefers-color-scheme: dark) {
           body {
             background: var(--dark-bg-4lighter);
-            background-image: linear-gradient(var(--dark-bg,#2f2e36), var(--dark-bg-4lighter, #2e2d33));
+            background-image: linear-gradient(var(--dark-bg,#444), var(--dark-bg-4lighter, #333));
             color: #E4E9EA;
           }
-          a, a:visited, a:active { color: var(--gold, #DBA507);}
+          a, a:visited, a:active { color: var(--gold, gold);}
         }
         </style>
       </head>
       <body>
       <header>
           <h1>Hi there, I am Derek Gates.</h1>
-          <hr/>
       </header>
       <main>
             <p>I am devoted to user experience and pride myself with designing systems that work together beautifully.</p>
 
-            <p>My passion is with front-end development; initially on the desktop but now centered on the web with a gravitation towards open web standards.  In the last few years my web journey has taken me from Angular/JS to creation of a library web components for a design system implementation of a legacy portal.</p>
+            <p>Front-end development is my focus; initially on the desktop but now centered on the web with a gravitation towards open web standards.  In the last few years my web journey has taken me from Angular/JS to creation of a library of web components for a design system implementation of a legacy portal.</p>
 
-            <p>Currently I am a team lead assisting skilled senior and junior developers.  Our team has introduced resiliency into a customer system by improving observability, incident management, high availability configuration to reduce SEV incidents and restore SLAs.</p>
+            <p>Currently I am a team lead assisting skilled senior and junior developers.  Our team has introduced resiliency into a customer system by improving observability, incident management, high availability configuration to reduce <abbr title="Severity Incidents, used in NOC or Rapid Response">SEV</abbr> incidents and restore <abbr title="Service Level Agreements (ie; 99.999% SLA)">SLAs</abbr>.</p>
 
-            <p>In the devops realm I have maintained Infrastructure as Code strategies, assisted with disaster recovery plans and have maintained stable build output from an Octopus Deploy CI/CD system.  Site reliability engineering has been a part of my role and I have assisted with training others.</p>
+            <p>In the devops realm I have maintained Infrastructure as Code strategies, assisted with disaster recovery plans and have maintained stable build output from an Octopus Deploy <abbr title="Continuous Integration/Deployment">CI/CD</abbr> system.  Site reliability engineering has been a part of my role and I have assisted with training others.</p>
             
-            <h2>Skills</h2>
-            <ul>
-              <li>Accomplished C#,  HTML + CSS, UI developer with 16 years of experience.</li>
-              <li>Diverse knowledge of ASP.net, Javascript, Databases with 10 years of experience.</li>
-              <li>I enjoy continuous integration, cloud systems (Azure, AWS, etc) and DevOps with 7 years of experience.</li>
-              <li>Well versed with working in teams, working remotely, and working independently using Agile work flows.</li>
-              <li>Toastmasters member.  Not afraid of large audiences and presentations.  I love to talk about and explain systems to other members of a team; capable of talking to all levels from the most technical, to sales team, to marketing, to customers.  Mentorship is a strong point for me.</li>
-            </ul>
+            <blockquote>
+              <ul>
+                  <li>Accomplished C#,  HTML/CSS, UI developer with 16 years of experience.</li>
+                  <li>Diverse knowledge of ASP.net, Javascript, Databases with 10 years of experience.</li>
+                  <li>I am eager to work in <abbr title="Continuous Integration/Deployment">CI/CD</abbr> pipelines, cloud systems (Azure, AWS, etc), DevOps with 7 years of experience.</li>
+                  <li>Well versed with working in teams, working remotely, and working independently using Agile work flows.</li>
+                  <li>Toastmasters member.  Not afraid of large audiences and presentations.  I love to talk about and explain systems to other members of a team; capable of talking to all levels from the most technical, to sales team, to marketing, to customers.  Mentorship is a strong point for me.</li>
+              </ul>
+          </blockquote>
             <img src="img/avatar_150x150.jpg?v=kPvW4AoJ54" srcset="img/avatar_300x300.jpg?v=kPvW4AoJ54 2x" width="150" height="150" alt="Picture of Me from ~2016" class="right"/>
-            <p>Are you interested in a hard working, diversely skilled developer on your team?  <a href="resume.pdf">View My Resume <small>(pdf)</small></a></p>
-            
-            <p>I want to hear from you: <strong>der<span class="no">4405s</span>ek<span class="no">34rufhaa</span>@de<span class="no">000</span><span class="yes">rekga</span><span class="no">too</span><span class="yes">tes</span>.us</strong></p>
+            <p>Are you interested in a hard working, diversely skilled developer on your team?  <a href="resume.html">View My Resume</a></p>
+            <p>I want to hear from you: <a href="mailto:hello@derekgates.us">hello@derekgates.us</a>
+            <!-- <strong>der<span class="no">4405s</span>ek<span class="no">34rufhaa</span>@de<span class="no">000</span><span class="yes">rekga</span><span class="no">too</span><span class="yes">tes</span>.us</strong>
+             -->
+            </p>
         </main>
         <footer>
           <small>Last updated June 2024</small>
