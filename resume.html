@@ -3,11 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Resume of Derek Gates</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Content-Language" content="en">
 
         <meta name="author" content="Derek Gates"/>
         <meta name="description" content="I am Derek Gates, a developer devoted to user experience. I pride myself with designing systems that work together beautifully.">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="Content-Language" content="en">
+        
 
         <meta property="og:title" content="Derek Gates: Usability focused developer.">
         <meta property="og:type" content="website">
@@ -15,13 +17,20 @@
 
         
         <link href="https://mastodon.social/@AbsolutelyDerek" rel="me">
+        <link href="https://mstdn.social/@AbsolutelyDerek" rel="me">
 
         <link rel="stylesheet" href="css/main.css"/>
         <style>
+            :root {
+                --gray-darker:#333;
+                --gray:#666;
+                --gray-highlight:#ccc;
+            }
+            body{padding: 1rem 1rem;}
             header {                 
                 margin-bottom: 1em;
                 padding-bottom:1em;
-                border-bottom: solid 1px #ccc; 
+                border-bottom: solid 1px var(--gray-highlight); 
             }
             header > .grid-horizontal {
                 display: grid;
@@ -38,7 +47,7 @@
                 align-items: self-start;
             }
             p, ul { font-size: 1em; }
-            header img { max-height: 100px; margin-right:0; margin-top:0; }
+            header img { max-height: 100px; margin-right:0; margin-top:0; margin-left: 0.25em; }
             header p { margin: 0; }
             main blockquote { font-size: 0.8em; }
             main dl { margin-bottom: 1em; font-size: 0.8em; }
@@ -53,14 +62,18 @@
             section > h2:first-child {
                 margin-bottom: 1em;
                 padding-bottom:1em;
-                border-bottom: solid 1px #ccc;
+                border-bottom: solid 1px var(--gray-highlight);
             }
 
             article h3 small { margin-left: 1em; font-size: 0.8em; font-weight: normal; text-transform: uppercase;
-                float: right; }
+                float: right; 
+                /* badge*/
+                border-radius: 5%; padding: 2px; color: var(--gray-highlight);
+            }
+            article > p { margin: 2em 2em; }
             article h4, article h6 { margin-bottom: 1em; font-weight: lighter; }
-            article h3 + h4 { margin-left: 2em; font-size: 0.8em; }
-            article h5 + h6 { margin-left: 2em; font-size: 0.8em; }
+            article h3 + h4 { margin-left: 2em; clear:both; }
+            article h5 + h6 { margin-left: 2em; }
             article+article { margin-top: 2em; }
             article article { margin-left: 2em; }
 
@@ -68,6 +81,18 @@
                 /* remove horizontal line gap (lines don't print) */
                 header, section > h2:first-child{ padding-bottom: 0; }
                 section+section { margin-top: 2em; }
+            }
+            @media (prefers-color-scheme: light) {
+                article h3 small { color: var(--gray); }
+            }
+            @media (max-width:40em) {
+                /* reduce grid by half and right align header area */
+                main .grid-half { grid-template-columns: repeat(1, 1fr); }
+                header > .grid-horizontal { grid-template-columns: repeat(2, 1fr); }
+                header > .grid-horizontal *:nth-child(2) {
+                    align-self: end;
+                    justify-self: end;
+                }
             }
         </style>
     </head>
@@ -140,11 +165,11 @@
                         <dt>Databases</dt>
                         <dd>Mongo DB, SQL Server, MySQL</dd>
                     </dl>
+                    <dl>
+                        <dt>Other Notable Skills</dt>
+                        <dd>Reactive/Functional Programming, Unit testing and IoC, Security Best Practices Advocate</dd>
+                    </dl>
                 </div>
-                <dl>
-                    <dt>Other Notable Skills</dt>
-                    <dd>Reactive/Functional Programming, Unit testing and IoC, Security Best Practices Advocate</dd>
-                </dl>
             </section>
             <section>
                 <h2>Professional Experience</h2>
